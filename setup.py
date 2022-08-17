@@ -12,14 +12,14 @@ DESCRIPTION = '\n\n'.join(LOAD_TEXT(_) for _ in [
 setup(
   name = 'untitleoop',      
   packages = ['untitleoop'], 
-  version = '0.0.2',  
+  version = '0.0.3',  
   license='MIT', 
   description = 'A package for beginnig OOP by ByllyVylly',
   long_description=DESCRIPTION,
   author = 'ByllyVylly',                 
   author_email = 'nabilali_p@hotmail.com',     
   url = 'https://github.com/ByllyVylly/untitleoop',  
-  download_url = 'https://github.com/ByllyVylly/untitleoop/archive/refs/tags/v0.0.2.zip',  
+  download_url = 'https://github.com/ByllyVylly/untitleoop/archive/refs/tags/v0.0.3.zip',  
   keywords = ['OOP', 'Object Oriented Program', 'untitle'],   
   classifiers=[
     'Development Status :: 3 - Alpha',     

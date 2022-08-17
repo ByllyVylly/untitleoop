@@ -22,14 +22,16 @@ def Test():
     print(teacher1)
     
     '''
-st1 = untitleoop.Untitled.Student('Alberto','Einsteino')
-print(st1)
 
-st2 = Student('Steven','Joops')
-print(st2)
+if __name__=='__main__':
+    st1 = untitleoop.Untitled.Student('Alberto','Einsteino')
+    print(st1)
 
-stp1 = SpecialStudent('Baron','Zemo','Zeop')
-print(stp1)
+    st2 = Student('Steven','Joops')
+    print(st2)
 
-teacher1 = Teacher('Alana Hayes')
-print(teacher1)
+    stp1 = SpecialStudent('Baron','Zemo','Zeop')
+    print(stp1)
+
+    teacher1 = Teacher('Alana Hayes')
+    print(teacher1)
