@@ -2,9 +2,9 @@
 
 # -*-coding: utf-8 -*-
 
-import Untitled
-from Untitled import Student,SpecialStudent
-from Untitled import *
+import untitleoop.Untitled
+from untitleoop.Untitled import Student,SpecialStudent
+from untitleoop.Untitled import *
 
 def Test():
     '''
@@ -22,7 +22,7 @@ def Test():
     print(teacher1)
     
     '''
-st1 = Untitled.Student('Alberto','Einsteino')
+st1 = untitleoop.Untitled.Student('Alberto','Einsteino')
 print(st1)
 
 st2 = Student('Steven','Joops')
